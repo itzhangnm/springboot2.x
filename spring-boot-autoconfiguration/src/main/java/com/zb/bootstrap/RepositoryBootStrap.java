@@ -18,7 +18,6 @@ public class RepositoryBootStrap {
 				.run(args);
 		MyFirstLevelRepository myFirstRepository = context.getBean("mySecondLevelRepository", MyFirstLevelRepository.class);
 		System.out.println(myFirstRepository);
-		System.out.println("ccc");
 		context.close();
 	}
 }
