@@ -12,7 +12,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Conditional(OnSystemPropertyCondition.class)
-public @interface ConditionSystemProperty {
+public @interface ConditionOnSystemProperty {
 	
 	/**
 	 * 系统属性名称

@@ -10,7 +10,7 @@ import java.lang.annotation.*;
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @FirstLevelRepository
-public @interface SecodeLevelRepository {
+public @interface SecondLevelRepository {
 	
 	String value() default "";
 }
