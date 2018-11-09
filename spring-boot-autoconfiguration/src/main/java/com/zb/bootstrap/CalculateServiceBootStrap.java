@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+
 /**
  * @author zb
  * @date 2018/11/8
@@ -20,5 +23,7 @@ public class CalculateServiceBootStrap {
 		CalculateService calculateService = context.getBean(CalculateService.class);
 		calculateService.sum(1,2,3,4,5,6,7,8,9,10);
 		context.close();
+		List<String> list = new CopyOnWriteArrayList<>();
+		list.add("1");
 	}
 }
