@@ -1,0 +1,13 @@
+#initializer
+org.springframework.context.ApplicationContextInitializer=\
+com.zb.context.AfterHelloWorldApplicationContextInitializer,\
+com.zb.context.HelloWorldApplicationContextInitializer
+
+#application context listener
+org.springframework.context.ApplicationListener=\
+com.zb.listener.AfterHelloWorldApplicationListener,\
+com.zb.listener.HelloWorldApplicationListener
+
+#application run listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.zb.listener.run.HelloWorldRunListener
