@@ -20,8 +20,8 @@
 	</parent>
 
 	<modules>
-		<module>spring-boot-autoconfiguration</module>
-		<module>spring-application</module>
+		<module>spring-boot-auto-configuration</module>
+		<module>spring-boot-spring-application</module>
 	</modules>
 
 	<properties>
