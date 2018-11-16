@@ -24,6 +24,7 @@
 		<module>spring-boot-spring-application</module>
 		<module>spring-web-mvc</module>
 		<module>spring-boot-web-mvc</module>
+		<module>spring-boot-view</module>
 	</modules>
 
 	<properties>
