@@ -6,7 +6,8 @@ com.zb.context.HelloWorldApplicationContextInitializer
 #application context listener
 org.springframework.context.ApplicationListener=\
 com.zb.listener.AfterHelloWorldApplicationListener,\
-com.zb.listener.HelloWorldApplicationListener
+com.zb.listener.HelloWorldApplicationListener,\
+com.zb.listener.BeforeConfigFileApplicationListener
 
 #application run listeners
 org.springframework.boot.SpringApplicationRunListener=\

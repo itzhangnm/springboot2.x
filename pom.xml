@@ -22,6 +22,8 @@
 	<modules>
 		<module>spring-boot-auto-configuration</module>
 		<module>spring-boot-spring-application</module>
+		<module>spring-web-mvc</module>
+		<module>spring-boot-web-mvc</module>
 	</modules>
 
 	<properties>

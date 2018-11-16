@@ -3,6 +3,7 @@ package com.zb.annotation;
 import com.zb.configuration.HelloWorldConfiguration;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
  * @author zb
