@@ -13,8 +13,9 @@ import org.springframework.core.env.ConfigurableEnvironment;
  *
  * @author zb
  * @date 2018/11/13 11:03
+ * //order排序在ConfigFileApplicationListener之前加载
  */
-@Order(ConfigFileApplicationListener.DEFAULT_ORDER + 1) //order排序在ConfigFileApplicationListener之前加载
+@Order(ConfigFileApplicationListener.DEFAULT_ORDER + 1)
 public class BeforeConfigFileApplicationListener implements SmartApplicationListener {
 	
 	@Override

@@ -23,9 +23,9 @@ public class HelloWorldControllerAdvice {
 		return acceptLanguage;
 	}
 	
-	@ModelAttribute("JSESSIONID")
-	public String JSESSIONID(@CookieValue("JSESSIONID")String JSESSIONID){
-		return JSESSIONID;
+	@ModelAttribute("jSessionId")
+	public String jSessionId(@CookieValue("jSessionId")String jSessionId){
+		return jSessionId;
 	}
 	
 	@ExceptionHandler(value = Exception.class)

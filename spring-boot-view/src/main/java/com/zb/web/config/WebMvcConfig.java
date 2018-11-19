@@ -39,8 +39,9 @@ public class WebMvcConfig implements WebMvcConfigurer {
 					String relativePath = "spring-boot-view/src/main/webapp";
 					// 相对于 user.dir = D:\workspace\dive-in-spring-boot
 					File docBaseFile = new File(relativePath);
-					if (docBaseFile.exists()) { // 路径是否存在
-						// 解决 Maven 多模块 JSP 无法读取的问题
+					// 路径是否存在
+					// 解决 Maven 多模块 JSP 无法读取的问题
+					if (docBaseFile.exists()) {
 						context.setDocBase(docBaseFile.getAbsolutePath());
 					}
 				}
